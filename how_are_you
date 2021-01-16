@@ -1,0 +1,7 @@
+answer = confirm("Are you good?")
+
+if (answer) {
+    alert("That is good!");
+} else {
+    alert("That's too bad. I'm sorry");
+}
