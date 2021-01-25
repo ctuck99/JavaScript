@@ -1,0 +1,13 @@
+const SS_tax_W2 = 0.062 // Social Security tax: 6.2%, when employed by someone else 
+const Medicare_tax_W2 = 0.0145 // Medicare tax: 1.45 % , when employed by someone else
+
+let taxable_income = prompt("Enter your taxable income: ");
+
+
+let SS_tax_paid_as_W2 = taxable_income * SS_tax_W2; // Taking taxable income and multiplying by 6.2% (0.062)
+
+alert(`You should have paid $${SS_tax_paid_as_W2} in Social Security tax as W-2 employee`);
+
+let Medicare_tax_W2_as_W2 = taxable_income * Medicare_tax_W2; // Taking taxable income and multiplying by 1.45% (0.0145)
+
+alert(`You should have paid $${Medicare_tax_W2_as_W2} in Social Security tax as W-2 employee`);
